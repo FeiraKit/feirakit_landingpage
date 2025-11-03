@@ -10,20 +10,15 @@ export function Hero() {
       description: 'Como Usar',
       href: '#HowToUse'
     },
-    // {
-    //   key: 1,
-    //   description: 'sobre o projeto',
-    //   href: '#HowToUse'
-    // },
+    {
+      key: 1,
+      description: 'Baixar Manual em PDF',
+      href: 'https://drive.google.com/file/d/1F-8KpIeHefEC6Uctess4dH2B55DUTR_0/view?usp=sharing'
+    },
     {
       key: 2,
       description: 'Conheça o F.S.V.J.',
-      href: 'https://www.fundo.social/'
-    },
-    {
-      key: 3,
-      description: 'Teste o aplicativo',
-      href: 'https://expo.dev/accounts/feirakitapp/projects/feirakit-app/builds/6cfc8d71-d97e-4b97-a135-a22a86065726'
+      href: 'https://www.instagram.com/fsvjoficial?igsh=cTc4azd4ZzRsN3V3'
     }
   ];
   return (
@@ -37,14 +32,14 @@ export function Hero() {
               className="w-[90px] md:w-52"
             />
           </div>
-          <div className="flex flex-row gap-2 md:gap-6 h-full ">
+          <div className="flex flex-row gap-2 md:gap-6 h-full  items-center ">
             {links.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
-                className="flex text-white visited:text-white capitalize  
-              items-center text-xs md:text-xl  hover:md:bg-blue-100  hover:bg-opacity-50
-             hover:md:text-blue-900 transition-all duration-200 px-1 md:px-2"
+                className="h-12 flex text-white visited:text-white capitalize  
+              items-center text-xs md:text-xl  hover:md::border-b  hover:border-b
+             hover:md:text-amber-400 transition-all duration-100 px-1 md:px-2 "
                 target={item.href.includes('http') ? '_blank' : ''}
               >
                 {item.description}

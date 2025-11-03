@@ -6,7 +6,7 @@ import editarUsuario2 from '../../../public/assets/editarUsuario2.jpg';
 export function EditUser() {
   return (
     <section
-      className="flex flex-col  md:gap-24 px-12 md:px-24 py-2 md:py-4 lg:flex-row md:flex-row sm:flex-col  
+      className="flex flex-col  md:gap-24 px-12 md:px-24 py-2 md:py-14 lg:flex-row md:flex-row sm:flex-col  
      bg-blue-50 justify-center items-center w-full animate-slidein [--slidein-delay:800ms] opacity-0"
     >
       <SectionStepImages image1={editarUsuario} image2={editarUsuario2} />

@@ -11,7 +11,7 @@ export function Footer() {
       <div className="flex self-start h-full border-blue-200 w-1/4 px-4">
         <button
           onClick={scrollToTop}
-          className="flex border-2 border-blue-200 w-10 h-10  justify-center rounded-md p-1 "
+          className="flex border-2 border-blue-200 w-10 h-10  justify-center rounded-md items-center "
         >
           <Icon
             name="angle double up"
@@ -31,7 +31,7 @@ export function Footer() {
             &copy;2024
           </p>
           <a
-            href="https://www.instagram.com/fundo.social.jequi/"
+            href="https://www.instagram.com/fsvjoficial?igsh=cTc4azd4ZzRsN3V3"
             target="_blank"
             className="flex visited:text-white 
           hover:bg-opacity-50
